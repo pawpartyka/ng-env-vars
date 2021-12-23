@@ -1,5 +1,5 @@
 {
-  "name": "ng-env-example",
+  "name": "ng-env-vars",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

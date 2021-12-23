@@ -1,4 +1,4 @@
-# ng-env-example
+# ng-env-vars
 
 Comprehensive solution of environmental variables in containerized web applications using nginx.
 

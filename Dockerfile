@@ -10,7 +10,7 @@ RUN npm run build
 FROM nginx
 
 COPY ./nginx /etc/nginx
-COPY --from=builder /usr/src/app/dist/ng-env-example /usr/share/nginx/html
+COPY --from=builder /usr/src/app/dist/ng-env-vars /usr/share/nginx/html
 
 EXPOSE 80
 
